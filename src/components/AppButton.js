@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AppButton = props => (
     <div>
-      <input type="submit" title="Entrar" />
+      <button type="submit" title={props.title}>{props.label}</button>
     </div>
   );
   
