@@ -1,0 +1,35 @@
+.wrapper {
+	background-color: lightblue;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.title {
+	font-family: 'Helvetica';
+}
+
+.loginWrapper {
+	background-color: red;
+}
+
+.profileWrapper {
+	padding: 10px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	box-shadow: 1px 1px 30px black;
+}
+
+.imageWrapper {
+	height: 100px;
+}
+
+.imageWrapper img {
+	height: 100%;
+	border-radius: 50%;
+}
