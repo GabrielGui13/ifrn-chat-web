@@ -39,7 +39,7 @@ const Login = props => {
           />
           <small>Insira seu nick do github para melhor experiência</small>
           <AppInput label="Senha" type="password" style={{ margin: '10px' }} />
-          <AppButton type="submit" title="Clique aqui para entrar no chat" label="Entrar no chat" required />
+          <AppButton type="submit" title="Clique aqui para entrar no chat" label="Entrar no chat" required={required} />
         </form>
         </AppContainer>
       </main>
